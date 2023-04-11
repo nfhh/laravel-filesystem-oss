@@ -1,0 +1,29 @@
+{
+    "name": "nfhh/laravel-filesystem-oss",
+    "description": "Oss storage filesystem for Laravel.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nfhh\\LaravelFilesystemOss\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nfhh\\LaravelFilesystemOss\\OssStorageServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "nfhh"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "iidestiny/flysystem-oss": "^4.1",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    }
+}
